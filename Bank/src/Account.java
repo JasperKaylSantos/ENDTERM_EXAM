@@ -6,7 +6,7 @@ public abstract class Account
 	public Account(int acctNum)
 	{
 		accountNumber = acctNum;
-		setBalance(100000);
+		setBalance(0.0);
 	}
 	
 	public void setBalance(double b)
